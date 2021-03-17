@@ -32,5 +32,5 @@ jobs:
       with:
         app-name: 'app-CloudWorkshop'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ca1aeb199ff74211b7af7794656fa6d1 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_5299d036b5db4f39b605eb138ede29d1 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
